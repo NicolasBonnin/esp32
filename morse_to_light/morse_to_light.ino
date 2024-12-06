@@ -100,7 +100,7 @@ const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>ESP32 Morse Code Controller</title>
+  <title>Morse Encoder</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { font-family: Arial; text-align: center; margin: 20px; }
@@ -112,7 +112,7 @@ const char index_html[] PROGMEM = R"rawliteral(
 </head>
 <body>
   <div class="content">
-    <h1>ESP32 Morse Code Controller</h1>
+    <h1>Morse Encoder</h1>
     <form action="/send" method="get">
       <input type="text" name="message" placeholder="Enter your message">
       <button type="submit">Send Message</button>
